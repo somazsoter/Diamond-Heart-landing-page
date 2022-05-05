@@ -1,0 +1,81 @@
+@import url("components/button.css");
+
+body {
+	background: rgb(245, 245, 245);
+	color: rgb(20, 20, 20);
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+}
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #023e8a;
+	font-size: 45px;
+}
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: #0077b6;
+}
+a:hover {
+	text-decoration: none;
+	color: #0096c7;
+}
+#banner {
+	background-image: url(../images/diamondheartcover.jpg);
+	padding: 115px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+	color: white;
+	font-size: 45px;
+	font-weight: 600;
+}
+#banner p {
+	color: white;
+	font-size: 30px;
+}
+#footer{
+	padding: 30px;
+	background: rgb(30, 30, 30);
+	color: lightgrey;
+	text-align: center;
+}
+.card img, .card p {
+  display: block;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+	padding: 30px;
+	text-align: center;
+	font-weight: lighter;
+  display: flex;
+  justify-content: space-evenly;
+}
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
+#footer-list > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+#footer {
+text-align: center;
+}
+#footer-list {
+  padding-inline-start: 0;
+}
